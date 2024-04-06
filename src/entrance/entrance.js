@@ -9,6 +9,11 @@ setTimeout(function() {
   }, 3000);
 
 setTimeout(function() {
+    var arrow = document.getElementById('arrow');
+    arrow.classList.add('animate-arrow');
+  }, 3000);
+
+setTimeout(function() {
     console.log('Pop!');
     // alert('Pop!')
   }, 3000);
