@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    height: 1000px;
+}
+
+.nav {
+    background-color: #0A0908;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 35px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nav .text-borderline {
+    display: flex;
+    justify-content: center;
+}
+
+/* Borderline */
+.nav .text-borderline h1 {
+    color: #C1121F;
+    font-family: bokor;
+    font-size: 110px;
+    margin-top: -10px;
+}
+
+.arrow-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-logo img {
+    margin-top: -30px;
+    width: 50px;
+    height: auto;
+    transform: rotate(180deg);
+}
+
+/* SS24 */
+.container h2 {
+    color: white;
+    font-family: handjet;
+    font-size: 65px;
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+/* Add padding to create space for the fixed navigation bar */
+/* Adjust the grid column if needed */
+.content {
+    grid-column: 2 / span 1; 
+    margin-top: -50px; 
+}
+
+.content h2 {
+    color: black;
+}
+
+.text-inform {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Lorem */
+.text-inform p {
+    color: white;
+    max-width: 380px;
+    font-family: special;
+    font-size: 20px;
+}
+
+

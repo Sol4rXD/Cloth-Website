@@ -7,3 +7,8 @@
     font-family: special;
     src: url(SpecialElite-Regular.ttf);
 }
+
+@font-face {
+    font-family: handjet;
+    src: url(Handjet-VariableFont_ELGR,ELSH,wght.ttf);
+}
