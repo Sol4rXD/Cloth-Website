@@ -105,6 +105,7 @@ body {
 
 .language h1:hover {
     color: white;
+    cursor: pointer;
 }
 
 .language .language-2 {

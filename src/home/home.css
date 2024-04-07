@@ -47,6 +47,10 @@
     transform: rotate(180deg);
 }
 
+.arrow-logo img:hover {
+    cursor: pointer;
+}
+
 /* SS24 */
 .container h2 {
     color: white;
