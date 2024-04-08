@@ -85,4 +85,29 @@
     font-size: 20px;
 }
 
+.animate-category-forward {
+    animation: category-button-forward 1s ease forwards;
+}
+
+@keyframes category-button-forward {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(620px) rotate(180deg);
+    }
+}
+
+.animate-category-backward {
+    animation: category-button-backward 1s ease forwards;
+}
+
+@keyframes category-button-backward{
+    0% {
+        transform: translateY(620px) rotate(-180deg);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 

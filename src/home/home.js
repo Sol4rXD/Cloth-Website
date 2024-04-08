@@ -18,3 +18,24 @@ window.addEventListener('scroll', () => {
         document.querySelector('.text-inform p').textContent = SS24.inform;
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    var arrow = document.getElementById("arrow");
+    var click = true;
+
+    arrow.addEventListener("click", () => {
+        console.log('clicked');
+        if (click) {
+            arrow.classList.remove("animate-category-backward");
+            arrow.classList.add("animate-category-forward");
+            click = false;
+            console.log(click);
+        } else {
+            arrow.classList.remove("animate-category-forward");
+            arrow.classList.add("animate-category-backward");
+            click = true;
+            console.log(click);
+        }
+    });
+});
+
